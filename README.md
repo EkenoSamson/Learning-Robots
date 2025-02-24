@@ -1,6 +1,6 @@
 # **Robot Learning: Training for Robotic Tasks**
 
-This project explores imitation learning techniques using **Robomimic** and **Robosuite** to train robotic agents for object manipulation tasks. The experiments are conducted on different datasets using different models and the learning performance evaluated under varying conditions.
+This project explores imitation learning techniques using **Robomimic** and **Robosuite** to train robotic agents for object manipulation tasks. The experiments are conducted on different datasets using different models and the learning performances are evaluated under varying conditions.
 
 ---
 
@@ -28,7 +28,7 @@ This project explores imitation learning techniques using **Robomimic** and **Ro
 ### **Installation**
 1. Clone the repository
 ```
-    git clone 
+    git clone https://github.com/EkenoSamson/Learning-Robots
     cd Learning-Robots
 ```
 
