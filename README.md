@@ -39,7 +39,7 @@ i. inspecting a dataset
 ```
 
 
-ii. run the training
+ii. running the training
 ```
     python robomimic/robomimic/scripts/train.py --config <experiment>/configs/<config_file>.json
 ```
@@ -56,7 +56,8 @@ iv. Evaluating the model
     --n_rollouts 50 \
     --horizon 400 \
     --seed 0 \
-    --video_path results/rollout_video.mp4````
+    --video_path results/rollout_video.mp4
+````
 
 ### **Reports**
 Access the report in the ```Documentation``` directory.
