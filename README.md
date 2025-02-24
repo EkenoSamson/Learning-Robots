@@ -35,18 +35,21 @@ This project explores imitation learning techniques using **Robomimic** and **Ro
 ### **How to run the experiments**
 i. inspecting a dataset
 ```
-    python robomimic/robomimic/scripts/get_dataset_info.py --dataset dataset/.../dataset.hdf5```
+    python robomimic/robomimic/scripts/get_dataset_info.py --dataset dataset/ph/dataset.hdf5
+```
 
 
 ii. run the training
 ```
     python robomimic/robomimic/scripts/train.py --config <experiment>/configs/<config_file>.json
-
-Viewing the training logs
 ```
-    tensorboard --logdir trained-rnn/ --bind_all```
 
-Evaluating the model
+iii. Viewing the training logs
+```
+    tensorboard --logdir trained-rnn/ --bind_all
+```
+
+iv. Evaluating the model
 ```
     python robomimic/robomimic/scripts/run_trained_agent.py \
     --agent path/to/model.pth \
