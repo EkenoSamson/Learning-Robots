@@ -1,6 +1,6 @@
 # **Robot Learning: Training for Robotic Tasks**
 
-This project explores imitation learning techniques using **Robomimic** and **Robosuite** to train robotic agents for object manipulation tasks. The experiments are conducted on different datasets using different models and the learning performance evaluated under varying conditions.
+This project explores imitation learning techniques using **Robomimic** and **Robosuite** to train robotic agents for object manipulation tasks. The experiments are conducted on different datasets using different models and the learning performances are evaluated under varying conditions.
 
 ---
 
@@ -28,27 +28,28 @@ This project explores imitation learning techniques using **Robomimic** and **Ro
 ### **Installation**
 1. Clone the repository
 ```
-    git clone 
+    git clone https://github.com/EkenoSamson/Learning-Robots
     cd Learning-Robots
 ```
 
 ### **How to run the experiments**
 i. inspecting a dataset
 ```
-    python robomimic/robomimic/scripts/get_dataset_info.py --dataset dataset/.../dataset.hdf5
+    python robomimic/robomimic/scripts/get_dataset_info.py --dataset dataset/ph/dataset.hdf5
 ```
 
 
-ii. run the training
+ii. running the training
 ```
     python robomimic/robomimic/scripts/train.py --config <experiment>/configs/<config_file>.json
+```
 
-Viewing the training logs
+iii. Viewing the training logs
 ```
     tensorboard --logdir trained-rnn/ --bind_all
 ```
 
-Evaluating the model
+iv. Evaluating the model
 ```
     python robomimic/robomimic/scripts/run_trained_agent.py \
     --agent path/to/model.pth \
