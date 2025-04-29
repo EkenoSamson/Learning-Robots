@@ -1,0 +1,9 @@
+setup.py
+equi_bc_rnn/__init__.py
+equi_bc_rnn/equi_bc_rnn.py
+equi_bc_rnn/equi_bc_rnn_config.py
+equi_bc_rnn/equi_bc_rnn_policy.py
+equi_bc_rnn.egg-info/PKG-INFO
+equi_bc_rnn.egg-info/SOURCES.txt
+equi_bc_rnn.egg-info/dependency_links.txt
+equi_bc_rnn.egg-info/top_level.txt
