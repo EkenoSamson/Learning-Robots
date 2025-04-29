@@ -102,5 +102,4 @@ The project report (IEEE format) is available in the `Documentation/` directory.
 
 ## **Notes**
 - Ensure the Robomimic and Robosuite repositories are cloned and set up as per their documentation. This project does not include their code to avoid plagiarism, per the instructor’s guidelines.
-- The `square_experiment/` directory has been removed as it was unused, in compliance with the deliverable requirements.
 - All scripts assume the dataset paths are correctly set. Adjust paths in scripts or configs if your dataset is located elsewhere.
